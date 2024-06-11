@@ -1,0 +1,47 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  height: 100%;
+  background-color: black;
+}
+.item {
+  width: 25px;
+  height: 25px;
+  background-color: #3fa9f5;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  /* margin: 5px; */
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  flex-grow: 1;
+}
+.container {
+  display: flex;
+  border: 2px solid #fff;
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 5px;
+  height: 650;
+  /* flex-direction: by default set to row  */
+  /* flex-direction: row-reverse ;  we can see that its align the recerse 54321*/
+  /* flex-direction: column;  default vertical only   flex-direction: column-reverse;we can see that its align the recerse 54321*/
+
+  /* justify-content: ; to control the felx property */
+  /* justify-content: flex-start;  default value flex-startflex-end end of the display if we say centeral it centeral flex-centeral
+ the if the size of the patient elemnt is changes
+
+
+ gap: 10px to control the distance of the iteams
+
+ space-between its combition of mutlipul set values 
+ justify-content: space-between;
+                         evenly;
+                         around;
+ */
+}

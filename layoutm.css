@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(62, 124, 124);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Header {
+  width: 100vw;
+  height: 80px;
+  border: 2px solid #000;
+}
+
+.Header h1 {
+  text-align: center;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 100px;
+  border: 2px solid black;
+}
+.nav-bar h1 {
+  text-align: center;
+}
+
+.content {
+  width: 100%;
+  height: 100px;
+  border: 2px solid black;
+}
+.content h1 {
+  text-align: center;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  border: 2px solid black;
+}
+.footer h1 {
+  text-align: center;
+}
+
+/* Note:% – The % unit is used to set the font-size relative to the current font-size. 
+em – It is used to set the relative size. It is relative to the font-size of the element. 
+Note: Here 2em meaning 2times the size of current font. 
+rem – Relative to the browser base font-size. 
+px – It defines the font-size in terms of pixels. (96px = 1in)
+vh – Relative to 1% of the height of the viewport. 
+vw – Relative to 1% of the width of the viewport */
+
+.ss h1 {
+  width: 50%;
+  height: 50%;
+  background-color: blue;
+}
+.ssa h1 {
+  width: 50px;
+
+  background-color: red;
+}
+.ssaa h1 {
+  width: 50vw;
+  background-color: green;
+}
+.ssai h1 {
+  width: 50vh;
+  background-color: yellow;
+}
